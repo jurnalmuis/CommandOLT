@@ -15,11 +15,14 @@ INDEX  TYPE  STATE   F /S /P   VPI  VCI   FLOWTYPE FLOWPARA   CVLAN
 2310   gpon   *up*   0 /1 /2   14   1     vlan     201        -        >> State UP, ONT UP.
 ````
 **NOTE**
-> x = F | y = S | z = P | a = VPI
+F = x
+S = y
+P = z
+VPI = a
 
 Cek Display ONT
 ````bash
-display ont info F S P VPI
+display ont info x y z a
 ````
 
 Cek Config ONT
@@ -32,4 +35,21 @@ Cek Redaman ONT
 config
 interface gpon x/y
 display ont optical-info z a
-`````
+````
+
+Cek Port / Lan yang Connect.
+````bash
+config
+interface gpon x/y
+display ont port state z a eth-port all
+````
+
+Cek Mac Address berdasarkan vlan
+````bash
+display mac-address vlan XXXX
+````
+
+Cek Port ONT berdasarkan SN ONT
+````bash
+display ont info by-SN XXXXXXXXXXXXX
+````

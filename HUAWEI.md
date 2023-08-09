@@ -1,5 +1,5 @@
 ## OLT HUAWEI
-### Command Untuk Pengecekan OLT Huawei
+### Command Untuk Pengecekan di OLT Huawei
 Masuk privilege Mode
 ```
 enable

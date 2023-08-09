@@ -1,5 +1,5 @@
 ## OLT ZTE
-### Command Untuk Pengecekan OLT ZTE
+### Command Untuk Pengecekan di OLT ZTE
 Cek berdasarkan VLAN 
 ```bash
 show vlan XXXX

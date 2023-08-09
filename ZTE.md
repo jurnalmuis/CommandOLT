@@ -1,4 +1,10 @@
-Melihat ONU yang belum diregister
+Mencari Interface Berdasarkan VLAN 
 ```bash
-show gpon onu uncfg
+show vlan XXXX
 ```
+
+Melihat Detail ONT
+```bash
+show gpon onu detail-info gpon-onu_X/Y/Z:A
+```
+

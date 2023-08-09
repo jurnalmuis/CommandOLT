@@ -1,7 +1,19 @@
-Mencari Interface Berdasarkan VLAN 
+=================== OLT ZTE ===================
+
+Mencari Interface berdasarkan VLAN 
 ```bash
 show vlan XXXX
 ```
+
+Melihat Mac Address berdasarkan VLAN
+````bash
+show mac vlan XXXX
+````
+
+Melihat Mac Address berdasarkan interface 
+````bash
+show mac gpon onu gpon-onu_X/Y/Z:A
+````
 
 Melihat Detail ONT
 ```bash
@@ -17,3 +29,9 @@ Melihat Redaman ONT
 ````bash
 show pon power attenuation gpon-onu_X/Y/Z:A
 ````
+
+Mencari Interface berdasarkan SN Modem
+````bash
+show gpon onu by sn ZTEXXXXXXXXX
+````
+

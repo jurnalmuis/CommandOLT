@@ -49,3 +49,7 @@ Cek SN ONT
 ````bash
 show running-config slot 18 pon 4 onu 1
 ````
+Cek Port berdasarkan SN ONT
+````bash
+show onu-info by XXXXXXXXXXXX
+````

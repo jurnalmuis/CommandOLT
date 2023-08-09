@@ -1,40 +1,41 @@
 ## OLT ZTE
-Mencari Interface berdasarkan VLAN 
+### Command Untuk Pengecekan OLT ZTE
+Cek berdasarkan VLAN 
 ```bash
 show vlan XXXX
 ```
 
-Melihat Mac Address berdasarkan VLAN
+Cek Mac Address berdasarkan VLAN
 ````bash
 show mac vlan XXXX
 ````
 
-Melihat Mac Address berdasarkan interface 
+Cek Mac Address berdasarkan interface 
 ````bash
 show mac gpon onu gpon-onu_x/y/z:a
 ````
 
-Melihat Detail ONT
+Cek Detail ONT
 ```bash
 show gpon onu detail-info gpon-onu_x/y/z:a
 ```
 
-Melihat Config Interface ONT
+Cek Config Interface ONT
 ```bash
 show onu running config gpon-onu_x/y/z:a
 ```
 
-Melihat Config ONT
+Cek Config ONT
 ````bash
 show running-config interface gpon-onu_x/y/z:a
 ````
 
-Melihat Redaman ONT
+Cek Redaman ONT
 ````bash
 show pon power attenuation gpon-onu_x/y/z:a
 ````
 
-Mencari Interface berdasarkan SN Modem
+Cek Interface berdasarkan SN Modem
 ````bash
 show gpon onu by sn ZTEXXXXXXXXX
 ````

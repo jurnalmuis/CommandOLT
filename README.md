@@ -4,6 +4,8 @@ Isi hanya command untuk pengecekan OLT ZTE, HUAWEI, FIBERHOME.
 > [!NOTE]
 > UPDATE JIKA SENGGANG.
 
+[OLT ZTE](ZTE.md)
+
 ## OLT ZTE
 ### Command Untuk Pengecekan di OLT ZTE
 Cek berdasarkan VLAN 

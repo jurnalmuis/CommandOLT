@@ -16,6 +16,7 @@ INDEX  TYPE  STATE   F /S /P   VPI  VCI   FLOWTYPE FLOWPARA   CVLAN
 ````
 **NOTE**
 > x = F | y = S | z = P | a = VPI
+
 Cek Display ONT
 ````bash
 display ont info F S P VPI

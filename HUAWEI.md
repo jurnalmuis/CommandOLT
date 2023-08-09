@@ -57,3 +57,8 @@ Cek Port ONT berdasarkan SN ONT
 ````bash
 display ont info by-SN XXXXXXXXXXXXX
 ````
+
+Cek Service ONT
+````bash
+display service-port port x/y/z ont a
+````

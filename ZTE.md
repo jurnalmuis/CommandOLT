@@ -59,7 +59,7 @@ Cek Port / LAN ONT
 show gpon remote-onu interface eth gpon-onu_x/y/z:a
 ````
 
-Cek Status ONT [ Working = Link UP, LOS = Link Down]
+Cek Status ONT [ **Working** = Link UP, **LOS** = Link Down]
 ````bash
 show gpon onu state gpon-olt_x/y/z a
 ````

@@ -1,5 +1,4 @@
-=================== OLT ZTE ===================
-
+## OLT ZTE
 Mencari Interface berdasarkan VLAN 
 ```bash
 show vlan XXXX

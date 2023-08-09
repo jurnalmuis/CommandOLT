@@ -2,14 +2,8 @@
 
 Isi hanya command untuk pengecekan OLT ZTE, HUAWEI, FIBERHOME.
 > [!NOTE]
-> UPDATE JIKA SENGGANG.
+> UPDATE JIKA SENGGANG. 
 
-<<<<<<< HEAD
 [OLT ZTE](ZTE.md)\
 [OLT HUAWEI](HUAWEI.md)\
 [OLT FIBERHOME](FIBERHOME.md) 
-=======
-[OLT ZTE](ZTE.md) 
-[OLT HUAWEI](HUAWEI.md) 
-[OLT FIBERHOME](FIBERHOME.md) 
->>>>>>> 051481b0d2e02abe5c6bd349273abfb6d94e2cdd

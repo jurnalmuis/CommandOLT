@@ -9,6 +9,7 @@ Cek berdasarkan VLAN
 ````bash
 display vlan XXXX
 ````
+> [!NOTE]
 >---------------------------------------------------------------------------
 >INDEX  TYPE  STATE   F /S /P   VPI  VCI   FLOWTYPE FLOWPARA   CVLAN
 >---------------------------------------------------------------------------

@@ -51,5 +51,33 @@ show running-config slot 18 pon 4 onu 1
 ````
 Cek Port berdasarkan SN ONT
 ````bash
-show onu-info by XXXXXXXXXXXX
+show onu-info by FHTTe1fxxxxx
+````
+Cek Config Modem
+````bash
+show onu running-config 1/1/8 13
+````
+Cek Status ONT
+````bash
+show onu state 1/1/8 13
+````
+Cek Mac Address berdasarkan Slot
+````bash
+show mac-address slot 1/6/1 | i 3551
+````
+Cek Mac Address berdasarkan VLAN
+````bash
+show mac-address vlan 2800
+````
+Cek Mac Address semua lalu filter
+````bash
+show mac-address all | i 3387
+````
+Search ONT by SN
+````bash
+show onu authorization-info phy-id FHTTe1fxxxxx
+````
+Cek Log ONT
+````bash
+show onu state 1/15/8 12
 ````
